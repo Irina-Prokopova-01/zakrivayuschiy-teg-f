@@ -75,10 +75,15 @@
 }
 
 .cards__text {
-  padding: 25px;
+  margin-block: 25px;
+  margin-inline: 29px;
   display: flex;
   flex-direction: column;
   gap: 25px;
+  font-size: 18px;
+  line-height: 21px;
+  font-variation-settings: "wght" var(--main-text-font-weight, 410);
+
 }
 
 .card__buttons {
@@ -86,7 +91,9 @@
   flex-direction: row;
   justify-content: end;
   align-items: center;
-  margin: 25px;
+  margin-block-end: 23px;
+  margin-inline-end: 23px;
+
   gap: 7px;
   /*inline-size: 169px;*/
   /*block-size: 38px;*/
@@ -124,7 +131,7 @@
 }
 
 .conversation__button-save {
-  padding: 13px 16px;
+  padding: 17px 18px;
   display: flex;
   gap: 8px;
   flex-direction: column;

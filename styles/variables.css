@@ -1,9 +1,12 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
+    --inline-size-block: clamp(23.4rem, 100%, 43.75rem);
     --accent-font-family: "PressStart2P", sans-serif;
     --main-font-family: "Inter", sans-serif;
     --main-text-font-weight: 410;
+    --main-text-font-weight-dialog: 400;
     --title-font-weight: 715;
+    --font-size-mini: 14px;
     --bg-img-gradient: repeating-linear-gradient(to left, #d3d3d3 0 2px, transparent 2px 4px),
     repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
     linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);

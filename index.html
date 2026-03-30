@@ -20,36 +20,42 @@
     <h2 class="header__subtitle">закрывающий тег</h2>
   </div>
 </header>
-<main>
+<main class="main">
   <section class="cards">
-    <ul class="cards__lis">
+    <ul class="cards__list">
       <li class="card__item">
         <h2 class="cars-title">
           Фритрек и нулевой спринт: Подготовка к работе
         </h2>
-        <img
-          class="card__image"
-          src="./images/bus.png"
-          alt="Изображение автобуса"
-        />
+        <div class="card__container-img">
+          <h3 class="header__title-img">&lt;/HTML&gt;</h3>
+          <div class="card__container-img">
+            <h3 class="header__title-img">&lt;/HTML&gt;</h3>
+            <img
+              class="card__image"
+              src="./images/bus.png"
+              alt="Изображение автобуса"
+            />
+          </div>
+        </div>
         <div class="cards__text">
           <p class="card__text">
             Это было самое начало пути. На этом этапе важно было проникнуться основами и настроиться на учёбу. И,
             возможно, подумать, как новые знания могут повлиять на ваше будущее.
           </p>
           <p class="card__text">
-            Место для ваших воспоминаний о начале обучения.
+            Важно было вписать обучение в повседневную жизнь.
           </p>
         </div>
         <div class="card__buttons">
-          <button class="card__button like-icon card__icon-button is-liked">
+          <button class="card__heart-button like-icon card__icon-button is-liked">
             <svg xmlns="http://www.w3.org/2000/svg" width="27" height="24" fill="none" viewBox="0 0 27 24">
               <path fill="#000"
                     d="M6 0H3v3h3zM9 0H6v3h3zM3 3H0v3h3zM3 6H0v3h3zM3 9H0v3h3zM12 0H9v3h3zM6 12H3v3h3zM9 15H6v3h3zM12 18H9v3h3zM21 0h3v3h-3zM18 0h3v3h-3zM24 3h3v3h-3zM24 6h3v3h-3zM24 9h3v3h-3zM15 0h3v3h-3zM21 12h3v3h-3zM18 15h3v3h-3zM15 18h3v3h-3zM15 3h-3v3h3zM15 21h-3v3h3z"/>
             </svg>
           </button>
           <button class="card__button card__like-button button__text">
-            like
+            Like
           </button>
         </div>
       </li>
@@ -57,11 +63,17 @@
         <h2 class="cars-title">
           1 спринт: Я — чистый лист
         </h2>
-        <img
-          class="card__image"
-          src="./images/bus.png"
-          alt="Изображение автобуса"
-        />
+        <div class="card__container-img">
+          <h3 class="header__title-img">&lt;/HTML&gt;</h3>
+          <div class="card__container-img">
+            <h3 class="header__title-img">&lt;ТОЧКА&gt;</h3>
+            <img
+              class="card__image filter-opacity-sepia-contrast"
+              src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2ZiNG43ZjhzbHdoMXEyaWRiM2U2bmh5a2t4cHRodnM3ZDB4YWY5eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PJiD33ewe7z7q/giphy.gif"
+              alt="Мальчик пытается встать с пола"
+            />
+          </div>
+        </div>
         <div class="cards__text">
           <p class="card__text">
             На первых этапах мы работали со страхами и сомнениями, которые часто испытывают новички. Один из них — страх
@@ -69,18 +81,20 @@
             скрываются более глубокие вопросы: с чего начать? а вдруг будет слишком сложно? что, если я не справлюсь?
           </p>
           <p class="card__text">
-            Место для ваших воспоминаний о начале первого спринта.
+            Чистый лист это мое пространство для творчества. Заносим кисть.
           </p>
         </div>
         <div class="card__buttons">
-          <button class="card__button like-icon card__icon-button is-liked">
+          <button class="card__heart-button like-icon card__icon-button is-liked">
             <svg xmlns="http://www.w3.org/2000/svg" width="27" height="24" fill="none" viewBox="0 0 27 24">
               <path fill="#000"
                     d="M6 0H3v3h3zM9 0H6v3h3zM3 3H0v3h3zM3 6H0v3h3zM3 9H0v3h3zM12 0H9v3h3zM6 12H3v3h3zM9 15H6v3h3zM12 18H9v3h3zM21 0h3v3h-3zM18 0h3v3h-3zM24 3h3v3h-3zM24 6h3v3h-3zM24 9h3v3h-3zM15 0h3v3h-3zM21 12h3v3h-3zM18 15h3v3h-3zM15 18h3v3h-3zM15 3h-3v3h3zM15 21h-3v3h3z"/>
             </svg>
           </button>
-          <button class="card__button card__like-button button__text">
-            like
+          <button class="card__button card__like-button">
+            <span class="button__text">
+              Like
+            </span>
           </button>
         </div>
       </li>
@@ -88,29 +102,34 @@
         <h2 class="cars-title">
           1 спринт: А если не получится?
         </h2>
-        <img
-          class="card__image"
-          src="./images/bus.png"
-          alt="Изображение автобуса"
-        />
+        <div class="card__container-img">
+          <h3 class="header__title-img">&lt;ЗАПЯТАЯ&gt;</h3>
+          <img
+            class="card__image filter-brightness"
+            src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3Q4MXJwZHJpMnkwb29qenF5cXplbmd5NHU3YnllemQ3MTBkcWQzMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tXL4FHPSnVJ0A/giphy.gif"
+            alt="Мальчик 5 лет очень задумчиво смотрит куда-то"
+          />
+        </div>
         <div class="cards__text">
           <p class="card__text">
             Первый проект — позади! Но это всё ещё самое начало пути. Радость могла быстро померкнуть и смениться
             ожиданием провала. Или вы, наоборот, могли вдохновиться успехами и поверить в себя.
           </p>
           <p class="card__text">
-            Место для ваших воспоминаний об окончании первого спринта.
+            Сомнений не было, была цель и был результат.
           </p>
         </div>
         <div class="card__buttons">
-          <button class="card__button like-icon card__icon-button is-liked">
+          <button class="card__heart-button like-icon card__icon-button is-liked">
             <svg xmlns="http://www.w3.org/2000/svg" width="27" height="24" fill="none" viewBox="0 0 27 24">
               <path fill="#000"
                     d="M6 0H3v3h3zM9 0H6v3h3zM3 3H0v3h3zM3 6H0v3h3zM3 9H0v3h3zM12 0H9v3h3zM6 12H3v3h3zM9 15H6v3h3zM12 18H9v3h3zM21 0h3v3h-3zM18 0h3v3h-3zM24 3h3v3h-3zM24 6h3v3h-3zM24 9h3v3h-3zM15 0h3v3h-3zM21 12h3v3h-3zM18 15h3v3h-3zM15 18h3v3h-3zM15 3h-3v3h3zM15 21h-3v3h3z"/>
             </svg>
           </button>
-          <button class="card__button card__like-button button__text">
-            like
+          <button class="card__button card__like-button">
+            <span class="button__text">
+              Like
+            </span>
           </button>
         </div>
       </li>
@@ -118,11 +137,14 @@
         <h2 class="cars-title">
           2 спринт: Погоня за идеалом
         </h2>
-        <img
-          class="card__image"
-          src="./images/bus.png"
-          alt="Изображение автобуса"
-        />
+        <div class="card__container-img">
+          <h3 class="header__title-img">&lt;СЛОВО&gt;</h3>
+          <img
+            class="card__image filter-grayscale"
+            src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjB5NzdxNHBkMXg2M2NwcmlyYm1oaGM3bXdzdHIyOXlkZXJqbjBsNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mcsPU3SkKrYDdW3aAU/giphy.gif"
+            alt="Кот быстро печатает на ноутбуке"
+          />
+        </div>
         <div class="cards__text">
           <p class="card__text">
             На этом этапе вы уже достаточно разбирались в основах вёрстки, чтобы понять, как много ещё впереди. Вы могли
@@ -130,18 +152,20 @@
             перфекционизму и вместо того, чтобы сделать идеально, старались просто сделать.
           </p>
           <p class="card__text">
-            Место для ваших воспоминаний о начале второго спринта.
+            Много информации, сложно воспринимать, иду дальше.
           </p>
         </div>
         <div class="card__buttons">
-          <button class="card__button like-icon card__icon-button is-liked">
+          <button class="card__heart-button like-icon card__icon-button is-liked">
             <svg xmlns="http://www.w3.org/2000/svg" width="27" height="24" fill="none" viewBox="0 0 27 24">
               <path fill="#000"
                     d="M6 0H3v3h3zM9 0H6v3h3zM3 3H0v3h3zM3 6H0v3h3zM3 9H0v3h3zM12 0H9v3h3zM6 12H3v3h3zM9 15H6v3h3zM12 18H9v3h3zM21 0h3v3h-3zM18 0h3v3h-3zM24 3h3v3h-3zM24 6h3v3h-3zM24 9h3v3h-3zM15 0h3v3h-3zM21 12h3v3h-3zM18 15h3v3h-3zM15 18h3v3h-3zM15 3h-3v3h3zM15 21h-3v3h3z"/>
             </svg>
           </button>
-          <button class="card__button card__like-button button__text">
-            like
+          <button class="card__button card__like-button">
+            <span class="button__text">
+              Like
+            </span>
           </button>
         </div>
       </li>
@@ -149,11 +173,14 @@
         <h2 class="cars-title">
           2 спринт: О тех, кто рядом
         </h2>
-        <img
-          class="card__image"
-          src="./images/bus.png"
-          alt="Изображение автобуса"
-        />
+        <div class="card__container-img">
+          <h3 class="header__title-img">&lt;СТРОЧКА&gt;</h3>
+          <img
+            class="card__image filter-invert"
+            src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW5pODh3bjVoZDBhZm12MnVwdng5Ym1lZ2Z3bnFuMTdhZnpoMzR0ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pF7yK5JCQG76JwfvCv/giphy.gif"
+            alt="Мультяшки (утка, мышонок и слоник) запускают феерверки"
+          />
+        </div>
         <div class="cards__text">
           <p class="card__text">
             Всё это время вы были не одиноки (хотя, возможно, иногда и чувствовали, что одни против целого мира). Вас
@@ -162,18 +189,20 @@
             правда ли?
           </p>
           <p class="card__text">
-            Место для ваших воспоминаний об окончании второго спринта.
+            Окружение это важно, помощь и поддержку чувствовала.
           </p>
         </div>
         <div class="card__buttons">
-          <button class="card__button like-icon card__icon-button is-liked">
+          <button class="card__heart-button like-icon card__icon-button is-liked">
             <svg xmlns="http://www.w3.org/2000/svg" width="27" height="24" fill="none" viewBox="0 0 27 24">
               <path fill="#000"
                     d="M6 0H3v3h3zM9 0H6v3h3zM3 3H0v3h3zM3 6H0v3h3zM3 9H0v3h3zM12 0H9v3h3zM6 12H3v3h3zM9 15H6v3h3zM12 18H9v3h3zM21 0h3v3h-3zM18 0h3v3h-3zM24 3h3v3h-3zM24 6h3v3h-3zM24 9h3v3h-3zM15 0h3v3h-3zM21 12h3v3h-3zM18 15h3v3h-3zM15 18h3v3h-3zM15 3h-3v3h3zM15 21h-3v3h3z"/>
             </svg>
           </button>
-          <button class="card__button card__like-button button__text">
-            like
+          <button class="card__button card__like-button">
+            <span class="button__text">
+              Like
+            </span>
           </button>
         </div>
       </li>
@@ -181,29 +210,34 @@
         <h2 class="cars-title">
           3 спринт: Обходные стратегии
         </h2>
-        <img
-          class="card__image"
-          src="./images/bus.png"
-          alt="Изображение автобуса"
-        />
+        <div class="card__container-img">
+          <h3 class="header__title-img">&lt;ПРЕДЛОЖЕНИЕ&gt;</h3>
+          <img
+            class="card__image filter-sepia"
+            src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmQ2bXl5dGJwaHlxNWl3OHYxdnNrcmxldmhuM2s2ajF6NmEzbnRueSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VdoGzFHJ0JxftbhRzj/giphy.gif"
+            alt="Кот наслаждается укрывшись большим, зеленым листом"
+          />
+        </div>
         <div class="cards__text">
           <p class="card__text">
             На этом курсе вы постоянно решали разные задачи. В какой-то момент вам могло показаться, что решения просто
             иссякли. Значит, пришло время посмотреть на задачу под другим углом.
           </p>
           <p class="card__text">
-            Место для ваших воспоминаний о начале третьего спринта.
+            Неожиданно много времени было потрачено на проект.
           </p>
         </div>
         <div class="card__buttons">
-          <button class="card__button like-icon card__icon-button is-liked">
+          <button class="card__heart-button like-icon card__icon-button is-liked">
             <svg xmlns="http://www.w3.org/2000/svg" width="27" height="24" fill="none" viewBox="0 0 27 24">
               <path fill="#000"
                     d="M6 0H3v3h3zM9 0H6v3h3zM3 3H0v3h3zM3 6H0v3h3zM3 9H0v3h3zM12 0H9v3h3zM6 12H3v3h3zM9 15H6v3h3zM12 18H9v3h3zM21 0h3v3h-3zM18 0h3v3h-3zM24 3h3v3h-3zM24 6h3v3h-3zM24 9h3v3h-3zM15 0h3v3h-3zM21 12h3v3h-3zM18 15h3v3h-3zM15 18h3v3h-3zM15 3h-3v3h3zM15 21h-3v3h3z"/>
             </svg>
           </button>
-          <button class="card__button card__like-button button__text">
-            like
+          <button class="card__button card__like-button">
+            <span class="button__text">
+              Like
+            </span>
           </button>
         </div>
       </li>
@@ -211,11 +245,14 @@
         <h2 class="cars-title">
           3 спринт: Когда опускаются руки
         </h2>
-        <img
-          class="card__image"
-          src="./images/bus.png"
-          alt="Изображение автобуса"
-        />
+        <div class="card__container-img">
+          <h3 class="header__title-img">&lt;ТЕКСТ&gt;</h3>
+          <img
+            class="card__image filter-blur"
+            src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2pzMWRvMmExNm84MWdmODgxOWF3OGxkZXBrazc2NjN0bDg1NmtrayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2XDY3GvgQqSLC4oFz4/giphy.gif"
+            alt="Черт с часами"
+          />
+        </div>
         <div class="cards__text">
           <p class="card__text">
             Во время учёбы часто возникает чувство, когда не знаешь, за что хвататься. Вроде и проектную пора сдавать, и
@@ -223,18 +260,20 @@
             нужна концентрация. Вспомните, откуда вы её черпали.
           </p>
           <p class="card__text">
-            Место для ваших воспоминаний об окончании третьего спринта.
+            Просто нужно выспаться.
           </p>
         </div>
         <div class="card__buttons">
-          <button class="card__button like-icon card__icon-button is-liked">
+          <button class="card__heart-button like-icon card__icon-button is-liked">
             <svg xmlns="http://www.w3.org/2000/svg" width="27" height="24" fill="none" viewBox="0 0 27 24">
               <path fill="#000"
                     d="M6 0H3v3h3zM9 0H6v3h3zM3 3H0v3h3zM3 6H0v3h3zM3 9H0v3h3zM12 0H9v3h3zM6 12H3v3h3zM9 15H6v3h3zM12 18H9v3h3zM21 0h3v3h-3zM18 0h3v3h-3zM24 3h3v3h-3zM24 6h3v3h-3zM24 9h3v3h-3zM15 0h3v3h-3zM21 12h3v3h-3zM18 15h3v3h-3zM15 18h3v3h-3zM15 3h-3v3h3zM15 21h-3v3h3z"/>
             </svg>
           </button>
-          <button class="card__button card__like-button button__text">
-            like
+          <button class="card__button card__like-button">
+            <span class="button__text">
+              Like
+            </span>
           </button>
         </div>
       </li>
@@ -242,11 +281,14 @@
         <h2 class="cars-title">
           «Сейчас я здесь»
         </h2>
-        <img
-          class="card__image"
-          src="./images/bus.png"
-          alt="Изображение автобуса"
-        />
+        <div class="card__container-img">
+          <h3 class="header__title-img">&lt;СОЧИНЕНИЕ&gt;</h3>
+          <img
+            class="card__image  filter-hue-rotate"
+            src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnRvdnNocGk2bGU3c2t3cDZiMWozNjdneW9iYnk0amkwaXFvb25qbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BPJmthQ3YRwD6QqcVD/giphy.gif"
+            alt="Ди Каприо с бокалом игристого"
+          />
+        </div>
         <div class="cards__text">
           <p class="card__text">
             Сейчас вы уже очень много знаете о вёрстке. Но это только начало. Во-первых, впереди ещё много материала про
@@ -255,29 +297,33 @@
             Ведь часто путь — и есть результат.
           </p>
           <p class="card__text">
-            Место, чтобы остановиться, подумать и написать, что вы чувствуете в этой точке пути.
+            Приходит понимание что все знать не обязательно, надо просто уметь найти нужную информацию.
           </p>
         </div>
         <div class="card__buttons">
-          <button class="card__button like-icon card__icon-button is-liked">
+          <button class="card__heart-button like-icon card__icon-button is-liked">
             <svg xmlns="http://www.w3.org/2000/svg" width="27" height="24" fill="none" viewBox="0 0 27 24">
               <path fill="#000"
                     d="M6 0H3v3h3zM9 0H6v3h3zM3 3H0v3h3zM3 6H0v3h3zM3 9H0v3h3zM12 0H9v3h3zM6 12H3v3h3zM9 15H6v3h3zM12 18H9v3h3zM21 0h3v3h-3zM18 0h3v3h-3zM24 3h3v3h-3zM24 6h3v3h-3zM24 9h3v3h-3zM15 0h3v3h-3zM21 12h3v3h-3zM18 15h3v3h-3zM15 18h3v3h-3zM15 3h-3v3h3zM15 21h-3v3h3z"/>
             </svg>
           </button>
-          <button class="card__button card__like-button button__text">
+          <button class="card__button card__like-button">
             <span class="button__text">
-              like
+              Like
             </span>
           </button>
         </div>
       </li>
     </ul>
   </section>
-  <section class="conversation__section">
-    <button class="conversation__button-save">
+  <section class="dialog__section">
+    <button
+      type="button"
+      class="dialog__open card__button"
+      onclick="window['dialog-id'].showModal()"
+      aria-controls="dialog-id">
       <svg width="28" height="28" viewBox="0 0 39 39">
-        <use href="svg/floppy.svg#disc" />
+        <use href="svg/floppy.svg#disc"/>
       </svg>
       <span class="button__text button__text--save">
         Сохранить на память
@@ -285,13 +331,28 @@
     </button>
   </section>
 </main>
-<!--<footer class="footer">-->
-<!--  <button class="conversation__button-ok">-->
-<!--      <span class="button__text">-->
-<!--        ОК-->
-<!--        </span>-->
-<!--  </button>-->
-<!--</footer>-->
+<dialog class="dialog" id="dialog-id">
+  <div class="dialog__contant">
+    <svg class="dialog-icon" viewBox="0 0 39 39">
+      <use href="svg/floppy.svg#disc"/>
+    </svg>
+    <p class="dialog__title">
+      Вставьте
+      дискету, чтобы продолжить
+    </p>
+  </div>
+  <form method="dialog">
+    <button
+      type="button"
+      onclick="window['dialog-id'].close()"
+      class="button__close"
+      >
+      <span class="button__text button__text--save">
+        ОК
+      </span>
+    </button>
+  </form>
+</dialog>
 <script src="./scripts/like.js"></script>
 </body>
 </html>

@@ -200,18 +200,19 @@
 }
 
 .dialog[open] {
-  top: 236px;
+  top: 0;
+  margin-block-start: 384px;
   right: 17px;
   left: 17px;
   display: grid;
   grid-template-rows: 1fr 1fr;
   gap: 30px;
-  padding-block: 29px;
-  padding-inline: 39px;
+  padding-block: 30px;
+  padding-inline: 30px;
   position: fixed;
   border: 2px solid #000000;
   max-block-size: 191px;
-  inline-size: 341px;
+  inline-size: 353px;
   overflow: hidden;
 }
 
@@ -394,5 +395,11 @@ dialog::backdrop {
 
   .dialog__open svg {
     inline-size: 28px;
+  }
+  .dialog[open] {
+    top: 0;
+    padding-inline: 40px;
+    inline-size: 341px;
+    margin-block-start: 236px;
   }
 }

@@ -168,6 +168,7 @@
   align-items: center;
   border: 2px solid #000000;
   padding: 13px 18px;
+  outline: none;
 }
 
 .dialog__open svg {
@@ -223,7 +224,7 @@
   align-self: center;
   width: 100%;
   padding-block: 8px;
-  /*padding-inline-start: 12.5px;*/
+  outline: none;
   padding-inline: 114.5px;
   background-color: #fff;
 }
@@ -271,10 +272,6 @@ dialog::backdrop {
   font-family: var(--accent-font-family, sans-serif);
 }
 
-.button__close {
-  outline: none;
-}
-
 .button__close:focus-visible {
   box-shadow: 2px 2px #000000;
 }
@@ -289,10 +286,6 @@ dialog::backdrop {
 .card__like-button:focus-visible {
   outline: none;
   box-shadow: 2px 2px #000000;
-}
-
-.dialog__open {
-  outline: none;
 }
 
 .dialog__open:focus-visible {

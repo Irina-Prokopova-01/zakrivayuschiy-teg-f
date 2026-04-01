@@ -238,11 +238,11 @@ dialog::backdrop {
 }
 
 .filter-opacity-sepia-contrast {
-  filter: sepia(80%) contrast(70%) opacity(30%);
+  filter: sepia(30%) contrast(100%) opacity(90%);
 }
 
 .filter-brightness {
-  filter: brightness(150%);
+  filter: brightness(90%);
 }
 
 .filter-grayscale {

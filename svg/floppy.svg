@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg">
     <symbol>
-        <path id="disc" fill="#000"
+        <path id="disc" fill="currentColor"
               d="M0 0h3v3H0zM0 3h3v3H0zM0 6h3v3H0zM0 9h3v3H0zM0
           12h3v3H0zM0 15h3v3H0zM0 18h3v3H0zM0 21h3v3H0zM0
           24h3v3H0zM0 27h3v3H0zM0 30h3v3H0zM0 33h3v3H0zM0
@@ -23,12 +23,4 @@
           18h-3v-3h3zM39 15h-3v-3h3zM39 12h-3V9h3zM39 9h-3V6h3z"/>
     </symbol>
 </svg>
-
-        <!--<svg xmlns="http://www.w3.org/2000/svg">-->
-        <!--<symbol>-->
-        <!--    <path id="edit"-->
-        <!--          d="M5 19h1.4l8.625-8.625-1.4-1.4L5 17.6V19ZM19.3 8.925l-4.25-4.2L17.875 1.9 22.1 6.125l-2.8 2.8ZM3 21v-4.25l10.6-10.6 4.25 4.25L7.25 21H3ZM14.325 9.675l-.7-.7 1.4 1.4-.7-.7Z"-->
-        <!--    />-->
-        <!--</symbol>-->
-        <!--</svg>-->
 

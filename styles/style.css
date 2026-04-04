@@ -190,13 +190,14 @@
 
 .dialog[open] {
     display: grid;
-    grid-template-rows: 1fr 1fr;
     gap: 30px;
-    padding-block: 30px;
+    padding-block-end: 30px;
+    padding-block-start: 30px;
     padding-inline: 30px;
     border: 2px solid var(--border-color, #000);
     inline-size: 353px;
     overflow: hidden;
+    margin: 384px 543px;
 }
 
 .dialog__contant {
@@ -359,7 +360,7 @@ dialog::backdrop {
         top: 0;
         padding-inline: 40px;
         inline-size: 341px;
-        margin-block-start: 236px;
+        margin: 236px 17px 240px 17px;
     }
 }
 

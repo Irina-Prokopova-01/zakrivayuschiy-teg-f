@@ -197,7 +197,6 @@
     border: 2px solid var(--border-color, #000);
     inline-size: 353px;
     overflow: hidden;
-    margin: 384px 543px;
 }
 
 .dialog__contant {
@@ -360,7 +359,6 @@ dialog::backdrop {
         top: 0;
         padding-inline: 40px;
         inline-size: 341px;
-        margin: 236px 17px 240px 17px;
     }
 }
 
